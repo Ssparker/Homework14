@@ -1,31 +1,26 @@
 package edu.dmacc.codedsm.homework14;
 
 public class Runner {
-    public static void main(String[] args ) {
 
-    GolfLeagueWebSite sherylsWebsite = new GolfLeagueWebSite();
+    public static void main(String[] args) {
 
-
-//    GolfLeagueWebsite isOpen = new isOpen();
-//    GolfLeagueWebSite website = new website();
-//    GolfLeagueWebSite people = new people();
-//    GolfLeagueWebSite onLineTransaction = new onLineTransaction();
-//    GolfLeagueWebsite onLineTransactionAmount = new onLineTransactionAmount();
-//    GolfLeagueWebsite paymentType = new paymentType();
-
+        GolfLeagueWebSite sherylsWebsite = new GolfLeagueWebSite();
         System.out.println(sherylsWebsite);
 
-//        System.out.println(GolfLeagueWebSite.isOpen = "isOpen=");
-
-//        System.out.println(website.toString() = "website=");
-//
-//        System.out.println(people.toString() = "people=");
-//
-//        System.out.println(onLineTransaction.toString() = "onLineTransaction=");
-//
-//        System.out.println(onLineTransactionAmount.toStrng() = "onLineTransactionAmount)=";
-//
-//        System.out.println("paymentType=");
+        UpdateWebsite updateWebsite = new UpdateWebsite();
+        System.out.println(updateWebsite);
+        
+        OnLineTransactionAmount onlineTransactionAmount = new OnLineTransactionAmount();
+        System.out.println(onlineTransactionAmount);
+        
+        OnLineTransactions onlineTransactions = new OnLineTransactions();
+        System.out.println(onlineTransactions);
+        
+        people personsInvolvedInLeague = new people();
+        System.out.println(personsInvolvedInLeague);
+        
+        PaymentType paymentType = new PaymentType();
+        System.out.println(paymentType);
 
     }
 

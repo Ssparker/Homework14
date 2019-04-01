@@ -9,7 +9,7 @@ public class GolfLeagueWebSite {
     private List<String> website;
     private List<String> people;
     private List<String> onLineTransaction;
-    private Double onlineTransactionAmount;
+    private Double onLineTransactionAmount;
     private List<String> paymentType;
 
     public GolfLeagueWebSite() {
@@ -17,7 +17,7 @@ public class GolfLeagueWebSite {
         this.website = new ArrayList<>();
         this.people = new ArrayList<>();
         this.onLineTransaction = new ArrayList<>();
-        this.onlineTransactionAmount = 300d;
+        this.onLineTransactionAmount = 300d;
         this.paymentType = new ArrayList<>();
     }
 
@@ -27,7 +27,7 @@ public class GolfLeagueWebSite {
         this.website = website;
         this.people = people;
         this.onLineTransaction = onLineTransaction;
-        this.onlineTransactionAmount = onlineTransactionAmount;
+        this.onLineTransactionAmount = onlineTransactionAmount;
         this.paymentType = paymentType;
     }
 
@@ -89,11 +89,11 @@ public class GolfLeagueWebSite {
     }
 
     public Double getOnlineTransaction() {
-        return onlineTransactionAmount;
+        return onLineTransactionAmount;
     }
 
     public void setOnlineTransaction(Double onlineTransaction) {
-        this.onlineTransactionAmount = onlineTransaction;
+        this.onLineTransactionAmount = onlineTransaction;
     }
 
     public List<String> getPaymentType() {
@@ -105,11 +105,11 @@ public class GolfLeagueWebSite {
     }
 
     public Double getOnlineTransactionAmount() {
-        return onlineTransactionAmount;
+        return onLineTransactionAmount;
     }
 
     public void setOnlineTransactionAmount(Double onlineTransactionAmount) {
-        this.onlineTransactionAmount = onlineTransactionAmount;
+        this.onLineTransactionAmount = onlineTransactionAmount;
     }
 
     @Override
@@ -119,7 +119,7 @@ public class GolfLeagueWebSite {
                 ", website=" + website +
                 ", people=" + people +
                 ", onLineTransaction=" + onLineTransaction +
-                ", onlineTransactionAmount=" + onlineTransactionAmount +
+                ", onlineTransactionAmount=" + onLineTransactionAmount +
                 ", paymentType=" + paymentType +
                 '}';
     }
